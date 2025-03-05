@@ -40,7 +40,7 @@ for col, values in uniquevalues.items():
         inputlist.append(input_text.lower())
 
 # Add an image or visual
-st.sidebar.image("images/custom_image.jpg", use_column_width=True, caption="Stay Healthy!")
+st.sidebar.image("images/custom_image.jpg", use_container_width="True", caption="Stay Healthy!")
 st.sidebar.markdown("---")
 
 # Prediction button
